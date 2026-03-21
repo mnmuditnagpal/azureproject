@@ -1,5 +1,6 @@
 # azureproject
 
+While running for each loop where we want to run the same pipeline for diff tables we can use an array of dict. like in loop for i in range(1,100): we make use of 'i' variable in ADF we have ref using item variable like item().
 
 Logic Apps (Alerts & Monitoring in Azure Data Factory) : for automation of failed pipelines triggers.
 We want to know which pipeline fail as we will be running various pipelines
