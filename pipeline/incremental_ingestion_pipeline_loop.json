@@ -3,11 +3,12 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "ForEach1",
+				"name": "ForEach",
 				"type": "ForEach",
 				"dependsOn": [],
 				"userProperties": [],
 				"typeProperties": {
+					"isSequential": true,
 					"activities": [
 						{
 							"name": "AzureSQLToLake",
@@ -317,7 +318,7 @@
 			}
 		],
 		"parameters": {
-			"loop_value": {
+			"loop_input": {
 				"type": "array",
 				"defaultValue": [
 					{
