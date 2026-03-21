@@ -17,3 +17,7 @@ Now add action to the trigger (select + sign) >> send an email >> sign in >> aft
 Once Done Save it and we will get a Http url
 
 In ADF add webactivity >> name it : alerts >> settings : url from logic apps , method = POST , Body : {"pipeline_name":"go to system variable and select pipeline name"}
+
+AutoLoader: autoloads your data
+
+source >>  >> Destination 
