@@ -21,3 +21,13 @@ In ADF add webactivity >> name it : alerts >> settings : url from logic apps , m
 AutoLoader: autoloads your data
 
 source >>  >> Destination 
+
+
+MetaData Driven
+Business Views : We join tables ,we create many cols, we create modify so many cols.
+
+Stakeholder >> Need Business view using fact stream, user, artist (he again come with some other business view so we have to create a dynamic sql query that takes parameters and changes as per request -->(Jinja Template))  >> comes to Data Engineer
+
+
+
+
